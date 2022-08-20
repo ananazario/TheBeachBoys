@@ -1,0 +1,167 @@
+:root {
+
+}
+
+/*-- RESET --*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(245, 233, 233);
+}
+
+/*-- layout --*/
+
+.cabecalho {
+    width: 100vw;
+    height: 36rem;
+    background-image: url('https://images.unsplash.com/photo-1601922115162-6363974ba44a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    background-repeat: repeat;
+    max-width: 100%;
+}
+
+.titulo-cabecalho {
+    height: 4.5rem;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    position: fixed;
+    width: 100%;
+}
+
+.titulo-div__cabecalho {
+    margin: 0;
+    padding: 1rem 34rem;
+    letter-spacing: 3px;
+    display: flex;
+}
+
+#titulo-span__cabecalho {
+    letter-spacing: 5px;
+}
+
+.material-symbols-outlined {
+    padding: 8px;
+    vertical-align: middle;
+    color: rgb(124, 124, 199);
+}
+
+main {
+    margin-top: 0;
+}
+
+.shop {
+    text-align: center;
+}
+
+.titulo-shop {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    text-decoration-style: solid;
+    letter-spacing: 2px;
+    padding-top: 2.4rem;
+    font-size: 25px;
+}
+
+.music-div_shop-imagens, .music-div_shop-textos, .music-div_shop-botao {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+.music-div_shop-imagens img {
+    width: 9rem;
+    height: 9rem;
+    margin-top: 4rem;
+}
+
+.music-div_shop-textos, .roupas-div_shop-textos {
+    font-weight: 700;
+}
+
+button {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: #fff;
+    cursor: pointer;
+    height: 2.5rem;
+}
+
+.music-div_shop-imagens img, .music-div_shop-textos p, .music-div_shop-botao button{
+    width: 10rem;
+}
+
+.roupas, .photos_section {
+    text-align: center;
+    margin-top: 0;
+}
+
+.clothes-shop {
+    margin: 2rem 0;
+}
+
+.roupas-div_shop-imagens {
+    margin-top: 3rem;
+}
+
+.roupas-div_shop-imagens, .roupas-div_shop-textos, .roupas-div_shop-botao {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.roupas-div_shop-imagens img, .roupas-div_shop-textos p, .roupas-div_shop-botao button {
+    width: 10rem;
+}
+
+.photos_section {
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 5rem 5rem 2rem;
+}
+
+.photos_section h1 {
+    padding-bottom: 1rem;
+}
+
+.photos_section img {
+    width: 19%;
+    height: 9rem;
+}
+
+.iframe-video {
+    text-align: center;
+    margin: 2.5rem 0;
+}
+
+.rodape {
+    text-align: center;
+    background-color: #000;
+    height: 13rem;
+}
+
+.rodape span {
+    padding-top: 30px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    margin-top: 1.7rem;
+}
+
+.logos img {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-left: 15px;
+    border-radius: 40%;
+}
+
+
+
+
+
+
+
